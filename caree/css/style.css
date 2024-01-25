@@ -167,9 +167,14 @@ a:focus {
 
 .navbar-brand span {
   font-weight: 700;
-  font-size: 40px;
-  color:#f7444e;
+  background-color: #f7444e;
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 35px;
+  padding: 5px;
+  border-radius: 5px;
   text-transform: uppercase;
+
 }
 
 .custom_nav-container {
@@ -191,6 +196,8 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  font-weight: 700;
+  font-size: larger;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link:hover {
@@ -301,11 +308,11 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #cb76de;
+  color: #f74446;
 }
 
 .slider_section .detail-box p {
-  color: #fefefe;
+  color: black;
   font-size: 14px;
 }
 
